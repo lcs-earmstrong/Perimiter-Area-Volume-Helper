@@ -10,7 +10,7 @@ import Foundation
 print("What shape do you want to find the volume of?")
 print("R:  Rectangle?")
 print("C: Circle")
-print("P: Parrallelogram")
+print("P: Parallelogram")
 print("T: Triangle")
 print("TR: Trapezoid")
 print("Enter you choice(R/C/P/T/TR): ", terminator: "")
@@ -35,8 +35,18 @@ func areaOfRectangle(length: Double, width: Double) -> Double {
 
 
 
+
 func areaOfCircle(radius: Double) -> Double {
     return Double.pi * pow(radius, 2.0)
+}
+
+/// Find the area of a parallelogram
+/// - Parameters:
+///   - base: Base length of parallelogram
+///   - height: hight of parallelogram
+/// - Returns: area of the parallelogram
+func areaOfParallelogram(base: Double, height: Double) -> Double {
+    return base * height
 }
 
 // MARK: Input
