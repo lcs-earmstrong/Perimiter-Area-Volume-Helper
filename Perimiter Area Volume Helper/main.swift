@@ -7,8 +7,8 @@
 
 import Foundation
 
-print("What shape do you want to find the volume of?")
-print("R:  Rectangle?")
+print("What shape do you want to find the area of?")
+print("R:  Rectangle")
 print("C: Circle")
 print("P: Parallelogram")
 print("T: Triangle")
@@ -23,18 +23,15 @@ let shape = readLine()!
 /// - Parameter length: length of rectangle
 /// - Parameter width: width of rectangle
 /// - Returns: area of the rectangle
+
 func areaOfRectangle(length: Double, width: Double) -> Double {
     
     return length * width
-    
 }
 
 /// Find the area of a circle
 /// - Parameter radius: distance from center of the circle to its outer edge in a straight line
 /// - Returns: area of the circle
-
-
-
 
 func areaOfCircle(radius: Double) -> Double {
     return Double.pi * pow(radius, 2.0)
@@ -49,9 +46,29 @@ func areaOfParallelogram(base: Double, height: Double) -> Double {
     return base * height
 }
 
+/// Find the area of a triangle
+/// - Parameters:
+///   - base: base length of the triangle
+///   - height: distance from base to highest point
+/// - Returns: area of the triangle
+func areaOfTriangle(base: Double, height: Double) -> Double{
+    return base * height / 2
+}
+
+/// Find the area of a trapezoid
+/// - Parameters:
+///   - top: length of the top of the trapezoid
+///   - base: length of the bottom of the trapezoid
+///   - height: distance from base to top
+/// - Returns: area of trapezoid
+func areaOfTrapezoid(top: Double, base: Double, height: Double) -> Double{
+    return (top + base) * height / 2
+}
+
 // MARK: Input
 
-let givenLength = 10.0       // Set to a Double using "type inference" (swift guesses the type)
+let givenLength = 10.0     // Set to a Double using "type inference" (swift guesses the type)
+
 let givenWidth: Double = 2    // Set to a Double using "type annotation" (tell swift what to do)
 
 
