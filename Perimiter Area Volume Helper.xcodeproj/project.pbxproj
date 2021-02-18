@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		B852C16B25C46E0300AFB5E9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B852C16A25C46E0300AFB5E9 /* main.swift */; };
+		B877B3D125D6F11300E2EBEE /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B877B3D025D6F11300E2EBEE /* extension.swift */; };
+		B877B3D725DE215B00E2EBEE /* IOS_ConverterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B877B3D625DE215B00E2EBEE /* IOS_ConverterApp.swift */; };
+		B877B3DB25DE21F700E2EBEE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B877B3DA25DE21F700E2EBEE /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		B852C16725C46E0300AFB5E9 /* Perimiter Area Volume Helper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Perimiter Area Volume Helper"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B852C16A25C46E0300AFB5E9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		B877B3D025D6F11300E2EBEE /* extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
+		B877B3D625DE215B00E2EBEE /* IOS_ConverterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_ConverterApp.swift; sourceTree = "<group>"; };
+		B877B3DA25DE21F700E2EBEE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +47,7 @@
 		B852C15E25C46E0300AFB5E9 = {
 			isa = PBXGroup;
 			children = (
+				B877B3D025D6F11300E2EBEE /* extension.swift */,
 				B852C16925C46E0300AFB5E9 /* Perimiter Area Volume Helper */,
 				B852C16825C46E0300AFB5E9 /* Products */,
 			);
@@ -58,8 +65,18 @@
 			isa = PBXGroup;
 			children = (
 				B852C16A25C46E0300AFB5E9 /* main.swift */,
+				B877B3D925DE219D00E2EBEE /* IOS_ConverterApp */,
 			);
 			path = "Perimiter Area Volume Helper";
+			sourceTree = "<group>";
+		};
+		B877B3D925DE219D00E2EBEE /* IOS_ConverterApp */ = {
+			isa = PBXGroup;
+			children = (
+				B877B3D625DE215B00E2EBEE /* IOS_ConverterApp.swift */,
+				B877B3DA25DE21F700E2EBEE /* ContentView.swift */,
+			);
+			path = IOS_ConverterApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +136,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B877B3D725DE215B00E2EBEE /* IOS_ConverterApp.swift in Sources */,
 				B852C16B25C46E0300AFB5E9 /* main.swift in Sources */,
+				B877B3DB25DE21F700E2EBEE /* ContentView.swift in Sources */,
+				B877B3D125D6F11300E2EBEE /* extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
