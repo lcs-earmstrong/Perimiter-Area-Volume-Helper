@@ -15,7 +15,7 @@ import Foundation
 //T: Triangle
 //TR: Trapezoid
 //"""
-func ShapeBeingCalculated() {
+
     
     print("""
         Area Converter.
@@ -92,7 +92,6 @@ What shape would you like to find the area of?
         let areaTrapezoid = areaOfTrapezoid(top: top, base: base, height: height)
         print("The area of the trapesoid is \(areaTrapezoid) square units")
     }
-}
 
 // MARK: Functions
 
